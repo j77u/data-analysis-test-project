@@ -6,7 +6,7 @@ ALTER TABLE Car_Prices_Poland DROP COLUMN province;
 
 
 
--- Below I created the table below to split the cars into 3 categories; old gen, mid gen, and new gen.
+-- Below I created the table below to split the cars into 4 categories each representing an era.
 -- Depending on what year the car was made, it will be counted in the correct category.
 -- This will show how many cars per era are present in this data set.
 CREATE TABLE YearGroups (
